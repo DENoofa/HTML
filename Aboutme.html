@@ -5,37 +5,65 @@
 <link rel-"stylesheet" href="../stylesheet.css">
 </head>
 
+<style>
+    body 
+    {
+    font-family: "Lato", sans-serif;
+    }
+    
+    .sidenav 
+    {
+    height: 100%;
+    width: 140px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(1, 12, 71);
+    overflow-x: hidden;
+    padding-top: 30px;
+    }
+        
+    .sidenav a 
+    {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #00538a;
+    display: block;
+    }
+        
+    .sidenav a:hover 
+    {
+    color: #ff0000;
+    background-color: rgb(255, 187, 0);
+    }
+        
+    .main 
+    {
+    margin-left: 140px;
+    font-size: 22px;
+    padding: 0px 10px;
+    }
+        
+    @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    }
+    </style>
+
 <h1>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 <div class="sidenav">
-    <a href="../index">Home</a>
-    <a href="../Portfolio">Portfolio</a>
-    <a href="../Contactme">Contact Me</a>
+    <a href="index.html">Home</a>
+    <a href="Portfolio.html">Portfolio</a>
+    <a href="Contactme.html">Contact Me</a>
 </div>
 </h1>
 
 <body>
 <body style="background-color:#00538a;">
 <body style="align-content: center"></body>
-
-
-<p>
-
-</h1>
-
-<body>
-<body style="background-color:#00538a;">
-<body style="align-content: center"></body>
-<div class="webgl-content">
-<div id="gameContainer" style="width: 960px; height: 600px"></div>
-<div class="footer">
-<div class="webgl-logo"></div>
-<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-<div class="title">Turret Souls</div>
-</div>
-</p>
-
-</body>
 </html>
