@@ -38,6 +38,39 @@ body
     padding: 0px 10px;
 }
 
+.link b
+{
+    color: ##00000a;
+    background-color: transparent;
+    text-decoration: none;
+    display: block;
+}
+
+.visited b
+{
+    color: ##f0ff00;
+    background-color: transparent;
+    text-decoration: none;
+    display: block;
+}
+
+.hover b
+{
+    color: ##f00000;
+    background-color: transparent;
+    text-decoration: underline;
+    display: block;
+}
+
+.active b
+{
+    color: ##42c300;
+    background-color: transparent;
+    text-decoration: underline;
+    display: block;
+}
+
+
 @media screen and (max-height: 450px) 
 {
     .sidenav {padding-top: 15px;}
